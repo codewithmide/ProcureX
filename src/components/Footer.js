@@ -3,7 +3,7 @@ import './styles/Footer.scss'
 
 const Footer = () => {
   return (
-    <div className='aps'>Footer</div>
+    <div className></div>
   )
 }
 

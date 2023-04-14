@@ -39,6 +39,10 @@ const Header = () => {
                 </Link>
               </div>
 
+              <div className='mobile'>
+                
+              </div>
+
               <div className='form-input'>
                 <form>
                   <input type="text" id="search" name="search" placeholder="Search product here" aria-label="Search"  />
@@ -46,7 +50,7 @@ const Header = () => {
                 </form>
               </div>
 
-              <div className='links'>
+              <div className='links desktop'>
                 <div>
                   <Link>
                     <div className='link-container'>
@@ -59,7 +63,7 @@ const Header = () => {
                   <Link>
                     <div className='link-container'>
                         <img src={Wishlist} alt='wishlist'/>
-                        <p>Add to<br />Wishlist</p>
+                        <p>Favorite<br />Wishlist</p>
                     </div>                  
                   </Link>
                 </div>
@@ -83,6 +87,7 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
+
             </div>
           </section>
 
@@ -91,7 +96,7 @@ const Header = () => {
               <div className='menu'>
                 <DropdownMenu />
               </div>
-              <nav className='navigation'>
+              <nav className='navigation desktop'>
                 <NavLink to='/' activeClassName="active-link">HOME</NavLink>
                 <NavLink to='/store' activeClassName="active-link">STORE</NavLink>
                 <NavLink to='/blogs' activeClassName="active-link">BLOGS</NavLink>

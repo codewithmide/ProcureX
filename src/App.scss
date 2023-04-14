@@ -2,11 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+:root {
+  --header-bg-color: #131921;
+  --header-text-color: #fff;
+  --header-border-color: #3b4149;
+  --search-btn-bg: #febd69;
+  --bottom-header-bg: #232f3e;
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
   width: 100vw;
+  font-size: 14px;
 }
 
 a {

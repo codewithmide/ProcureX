@@ -2,23 +2,139 @@ header {
     display: flex;
     flex-direction: column;
     position: fixed;
-    padding: 1rem   q2rem;
     width: 100%;
+    color: var(--header-text-color);
 }
 
 .header-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.top-container {
-    width: 100%;
+.container,
+.container-three {
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem 2rem;
+    height: 100%;
+}
+
+.top-container,
+.mid-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--header-border-color);
+    background-color: var(--header-bg-color);
 }
 
 .right {
     text-align: right;
+}
+
+a {
+    color: var(--header-text-color);
+}
+
+.form-input {
+    width: 45%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+input {
+    height: 40px;    
+    padding-left: 1rem;
+    outline: none;
+    font-family: inherit;
+    width: 100%;
+}
+
+button {
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--search-btn-bg);
+    padding: .7rem;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.link-container {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.link-container img {
+    width: 25px;
+}
+
+.link-container > span {
+    margin-top: 0.5rem;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.cart-count {
+    display: grid;
+    place-items: center;
+    background-color: var(--header-text-color);
+    color: var(--header-bg-color);
+    border-radius: 35%;
+    padding: 0 0.3rem;
+    font-weight: bold;
+}
+
+.bottom-container {
+    background-color: var(--bottom-header-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.container-three {
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--header-text-color);
+}
+
+.active-link {
+    color: var(--search-btn-bg);
 }

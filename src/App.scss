@@ -11,11 +11,24 @@
   --header-border-color: #3b4149;
   --search-btn-bg: #febd69;
   --bottom-header-bg: #232f3e;
+  --footer-bg-color: #232f3e;
+  --social-bg-color: #ffffff41;
 }
 
 body {
   width: 100vw;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+header, footer {
+  flex: 0 0 auto;
+  text-align: center;
 }
 
 a {

@@ -1,9 +1,9 @@
 const Logo = () => {
     return (
         <div className="logo">
-            <h2>
+            <h1>
                 ProcureX
-            </h2>
+            </h1>
         </div>
     );
 }

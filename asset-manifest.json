@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ProcureX/static/css/main.f32a9158.css",
+    "main.js": "/ProcureX/static/js/main.dad7ff84.js",
+    "static/js/787.467d8b4f.chunk.js": "/ProcureX/static/js/787.467d8b4f.chunk.js",
+    "static/media/banner-1.jpg": "/ProcureX/static/media/banner-1.0885d2acbdc25a35e426.jpg",
+    "static/media/Office supplies.jpg": "/ProcureX/static/media/Office supplies.bdc3aad3ba0bda4f35eb.jpg",
+    "static/media/banner-4.jpg": "/ProcureX/static/media/banner-4.21b2044728169cc37f70.jpg",
+    "static/media/banner-2.jpg": "/ProcureX/static/media/banner-2.62c769cd710cc2b29d2d.jpg",
+    "static/media/banner-3.jpg": "/ProcureX/static/media/banner-3.febac598a551b5859854.jpg",
+    "static/media/Hardware and tools.jpg": "/ProcureX/static/media/Hardware and tools.e92cc1c6f9b3ab4532ac.jpg",
+    "static/media/Safety products.jpg": "/ProcureX/static/media/Safety products.442bdee6b7ccf58ae406.jpg",
+    "static/media/david.jpg": "/ProcureX/static/media/david.8047a8cffecef9dee4e4.jpg",
+    "static/media/dunlop.jpg": "/ProcureX/static/media/dunlop.20fb3b0af81ef57c2da6.jpg",
+    "static/media/allen.png": "/ProcureX/static/media/allen.1c4386e8693d6e4054c6.png",
+    "static/media/Automotive parts and accessories.jpg": "/ProcureX/static/media/Automotive parts and accessories.f51c75b9bba031cc136d.jpg",
+    "static/media/Industrial equipment and machinery.jpg": "/ProcureX/static/media/Industrial equipment and machinery.13ed42e4025de50de31b.jpg",
+    "static/media/Bahco.png": "/ProcureX/static/media/Bahco.fa00318648b96d527976.png",
+    "static/media/maria.jpg": "/ProcureX/static/media/maria.5d2fcfef70943d68fe80.jpg",
+    "static/media/Schneider_Electric.png": "/ProcureX/static/media/Schneider_Electric.ed41cf1e9b373e6502cc.png",
+    "static/media/Atlas-Copco-Logo.png": "/ProcureX/static/media/Atlas-Copco-Logo.885c7c841f4a29528afb.png",
+    "static/media/bosch.png": "/ProcureX/static/media/bosch.de69ae2ebe0b6f6c28ca.png",
+    "static/media/abb.png": "/ProcureX/static/media/abb.4ecb83457407f47681db.png",
+    "static/media/menu.svg": "/ProcureX/static/media/menu.0fd9209b0e37744ccd2a6bbe7be97bd1.svg",
+    "static/media/cart.svg": "/ProcureX/static/media/cart.abfdf752dc482f1a9627d3f76562131d.svg",
+    "static/media/wish.svg": "/ProcureX/static/media/wish.417da1a5c71c1c516af8c35a335efa66.svg",
+    "index.html": "/ProcureX/index.html",
+    "static/media/wishlist.svg": "/ProcureX/static/media/wishlist.e2b76316c68ed8ae4128cca85f622430.svg",
+    "static/media/user.svg": "/ProcureX/static/media/user.cd86e0566bbf017c8167249084d368e3.svg",
+    "main.f32a9158.css.map": "/ProcureX/static/css/main.f32a9158.css.map",
+    "main.dad7ff84.js.map": "/ProcureX/static/js/main.dad7ff84.js.map",
+    "787.467d8b4f.chunk.js.map": "/ProcureX/static/js/787.467d8b4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f32a9158.css",
+    "static/js/main.dad7ff84.js"
+  ]
+}

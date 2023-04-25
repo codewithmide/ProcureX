@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 import { BsSearch } from 'react-icons/bs';
 import Logo from './Logo';
 import './styles/Header.scss';
-import Compare from '../assets/compare.svg';
 import Wishlist from '../assets/wishlist.svg';
 import User from '../assets/user.svg';
 import Cart from '../assets/cart.svg';
@@ -16,20 +15,6 @@ const Header = () => {
     <>
       <header>
         <div className='header-container'>
-          <section className='top-container'>
-            <div className='container'>
-              <div className='left'>
-                <p>
-                  Free delivery on orders over $100 and free returns
-                </p>
-              </div>
-              <div className='right'>
-                <p>
-                  Telephone: <a href='tel:+234 7088899861'>+2347088899861</a>
-                </p>
-              </div>
-            </div>
-          </section>
           
           <section className='mid-container'>
             <div className='container'>
@@ -54,16 +39,8 @@ const Header = () => {
                 <div>
                   <Link>
                     <div className='link-container'>
-                      <img src={Compare} alt='compare'/>
-                      <p>Compare<br />Products</p>
-                    </div>
-                  </Link>
-                </div>
-                <div>
-                  <Link>
-                    <div className='link-container'>
                         <img src={Wishlist} alt='wishlist'/>
-                        <p>Favorite<br />Wishlist</p>
+                        <p>Wishlist</p>
                     </div>                  
                   </Link>
                 </div>
@@ -71,7 +48,7 @@ const Header = () => {
                   <Link>
                     <div className='link-container'>
                         <img src={User} alt='user'/>
-                        <p>Login<br />My Account</p>
+                        <p>My Account</p>
                     </div>  
                   </Link>
                 </div>
@@ -97,10 +74,10 @@ const Header = () => {
                 <DropdownMenu />
               </div>
               <nav className='navigation desktop'>
-                <NavLink to='/' activeClassName="active-link">HOME</NavLink>
-                <NavLink to='/store' activeClassName="active-link">STORE</NavLink>
-                <NavLink to='/blogs' activeClassName="active-link">BLOGS</NavLink>
-                <NavLink to='/contact' activeClassName="active-link">CONTACT</NavLink>
+                <NavLink to='/'>HOME</NavLink>
+                <NavLink to='/store'>STORE</NavLink>
+                <NavLink to='/blogs'>BLOGS</NavLink>
+                <NavLink to='/contact'>CONTACT</NavLink>
               </nav>
             </div>
           </section>

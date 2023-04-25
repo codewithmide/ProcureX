@@ -1,11 +1,12 @@
 :root {
-  --header-bg-color: #131921;
+  --header-bg-color: #001219;
   --header-text-color: #fff;
   --header-border-color: #3b4149;
   --search-btn-bg: #febd69;
-  --bottom-header-bg: #232f3e;
-  --footer-bg-color: #232f3e;
+  --bottom-header-bg: #001219;
+  --footer-bg-color: #001219;
   --social-bg-color: #ffffff41;
+  --main-wrapper-two: #f5f5f7;
 }
 
 * {
@@ -17,14 +18,17 @@
 
 body {
   width: 100vw;
-  font-size: 13px;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
   font-weight: 300;
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    font-size: 10px;
+    font-size: .8rem;
   }
+  @media only screen and (max-width: 768px) {
+    font-size: .6rem;
+}
 }
 
 main {

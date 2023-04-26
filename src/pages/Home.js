@@ -104,105 +104,105 @@ const Home = () => {
         <Product
           key={1}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={2}
           name='product 1'
-          price='12'
+          price={10}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={3}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={4}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={5}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={6}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={7}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={8}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={9}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={10}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={11}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={12}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={13}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={14}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
         <Product
-          key={1}
+          key={15}
           name='product 1'
-          price='12'
+          price={12}
           isFavorite
           image={test}
         />
@@ -235,4 +235,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
